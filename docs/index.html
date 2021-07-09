@@ -33,10 +33,6 @@
   <script src="/lib/sweetalert2-8.16.3/sweetalert2.all.min.js"></script>
   <script src="/lib/jquery/jquery-3.5.1.min.js"></script>
   <script src="/lib/jquery/jquery-migrate-3.1.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="/lib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
   <script src="/lib/easing.min.js"></script>
   <script src="/lib/hoverIntent.js"></script>
   <script src="/lib/superfish.min.js"></script>
@@ -63,6 +59,142 @@
     src="https://maps.googleapis.com/maps-api-v3/api/js/44/10/intl/vi_ALL/common.js"></script>
   <script type="text/javascript" charset="UTF-8"
     src="https://maps.googleapis.com/maps-api-v3/api/js/44/10/intl/vi_ALL/util.js"></script>
+  <style>
+    * {
+      color: #494949;
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto";
+      box-sizing: border-box;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    p {
+      margin: 8px 0;
+      font-size: 18px;
+      font-family: "Roboto";
+    }
+
+    .logo-text {
+      padding: 24px;
+    }
+
+    .logo-text>h2 {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .logo-text>h3 {
+      text-align: center;
+    }
+
+    .container.box {
+      margin: auto;
+      padding: 24px;
+      max-width: 1920px;
+    }
+
+    .head .main-title {
+      font-weight: bold;
+    }
+
+    .p2.title {
+      color: #494949;
+      font-weight: bold;
+      margin: 16px 0;
+    }
+
+    .p4.title {
+      color: #494949;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+
+    .footer {
+      background-color: #212121;
+    }
+
+    .bottom {
+      margin: auto;
+      padding: 24px;
+      max-width: 1920px;
+    }
+
+    .bottom .container .row {
+      display: flex;
+    }
+
+    .p-32 {
+      padding: 24px 32px;
+    }
+
+    .title {
+      color: #fff;
+      margin-bottom: 24px;
+    }
+
+    .links {
+      list-style: none;
+    }
+
+    .links>li {
+      list-style: none;
+      padding: 8px 0;
+    }
+
+    .links .link {
+      color: #ababab;
+      font-size: 16px;
+    }
+
+    .address .info {
+      padding: 8px 0;
+    }
+
+    .address .info>span {
+      color: #ababab;
+      font-size: 16px;
+    }
+
+    .links .link:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .address .info:hover span {
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .copyright {
+      background-color: #F29840;
+    }
+
+    .copyright .container {
+      margin: auto;
+      padding: 24px;
+      max-width: 1920px;
+    }
+
+    .text.center {
+      color: #fff;
+    }
+
+    @media screen and (max-width: 756px) {
+      .container .row {
+        flex-direction: column;
+      }
+
+      .p-32 {
+        padding: 32px 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -83,25 +215,21 @@
     <section class="background">
 
       <section class="single-post-area section-account">
-        <div class="container box" style="
-  text-align: justify;
-  padding: 10px;
-">
+        <div class="container box" style="text-align: justify;">
           <div class="head">
             <span class="main-title">ĐIỀU KHOẢN SỬ DỤNG</span>
           </div>
 
           <p class="p1"><strong></strong><br></p>
           <p class="p2"><strong> BẰNG VIỆC SỬ DỤNG HỆ THỐNG NGƯỜI DÙNG CHẤP NHẬN CÁC ĐIỀU KHOẢN SAU:</strong></p>
-          <p class="p3"><strong></strong><br></p>
-          <p class="p2">GIỚI THIỆU</p>
+          <p class="p2 title">GIỚI THIỆU</p>
           <p class="p2">VNPT ORIMX là ứng dụng dành cho mọi người dân Việt Nam</p>
           <p class="p2">Các Điều khoản và Điều kiện Sử dụng Ứng dụng VNPT ORIMX (“Điều khoản”) là thỏa thuận và điều
             chỉnh việc bạn – khách hàng sử dụng dịch vụ (“bạn”), một cá nhân mang quốc tịch hoặc không mang quốc tịch từ
             bất kỳ quốc gia hoặc vùng lãnh thổ nào trên thế giới, truy cập hoặc sử dụng các ứng dụng, trang web, nội
             dung, sản phẩm và dịch vụ (“Dịch vụ”) của chúng tôi.<span class="Apple-converted-space">&nbsp;<span
                 class="Apple-tab-span"> </span></span></p>
-          <p class="p2">ÁP DỤNG ĐIỀU KHOẢN</p>
+          <p class="p2 title">ÁP DỤNG ĐIỀU KHOẢN</p>
           <p class="p2">Việc tiếp cận và sử dụng các Dịch vụ của bạn đồng nghĩa với việc bạn đã chấp nhận chịu ràng buộc
             của các Điều khoản này. Nếu bạn không đồng ý với bất kỳ hoặc toàn bộ các phần trong Điều khoản này, bạn sẽ
             không có quyền truy cập hoặc sử dụng các dịch vụ. Các Điều khoản này sẽ thay thế cho các thỏa thuận/hợp đồng
@@ -110,7 +238,7 @@
             hoặc từ chối quyền truy cập đến các Dịch vụ hoặc bất kỳ phần nào của Dịch vụ, vào bất kỳ lúc nào vì bất kỳ
             lý do gì.</p>
           <p class="p3"><br></p>
-          <p class="p2">BỔ SUNG VÀ THAY ĐỔI ĐIỀU KHOẢN</p>
+          <p class="p2 title">BỔ SUNG VÀ THAY ĐỔI ĐIỀU KHOẢN</p>
           <p class="p2">Các điều khoản bổ sung có thể được áp dụng cho các Dịch vụ nhất định, bao gồm nhưng không giới
             hạn đối với các chính sách áp dụng riêng cho một sự kiện hoặc một hoạt động hoặc một chương trình khuyến mãi
             cụ thể, và các điều khoản bổ sung này sẽ được tiết lộ/thông báo cho bạn liên quan đến các Dịch vụ được áp
@@ -121,14 +249,14 @@
             nhiên chịu sự ràng buộc của các Điều khoản đã được sửa đổi nếu bạn tiếp tục truy cập hoặc sử dụng các Dịch
             vụ từ thời điểm các sửa đổi được đăng/thông báo.</p>
           <p class="p3"><br></p>
-          <p class="p2">QUYỀN RIÊNG TƯ</p>
-          <p class="p4"><em>Bạn đồng ý cho chúng tôi thu thập thông tin về bạn khi bạn sử dụng các ứng dụng trên điện
-              thoại di động, trang web và các sản phẩm và dịch vụ trực tuyến khác của chúng tôi (gọi chung là "Dịch
-              vụ") và thông qua các mối tương tác và thông tin liên lạc khác mà bạn có với chúng tôi.</em></p>
-          <p class="p4"><strong><em>Phạm vi áp dụng</em></strong></p>
+          <p class="p2 title">QUYỀN RIÊNG TƯ</p>
+          <p class="p4">Bạn đồng ý cho chúng tôi thu thập thông tin về bạn khi bạn sử dụng các ứng dụng trên điện
+            thoại di động, trang web và các sản phẩm và dịch vụ trực tuyến khác của chúng tôi (gọi chung là "Dịch
+            vụ") và thông qua các mối tương tác và thông tin liên lạc khác mà bạn có với chúng tôi.</p>
+          <p class="p4 title"><strong>Phạm vi áp dụng</strong></p>
           <p class="p4">Tuyên Bố về Quyền Riêng Tư này (“Tuyên Bố") áp dụng cho bất kỳ ai sử dụng các ứng
             dụng cũng như Dịch Vụ của chúng tôi.</p>
-          <p class="p4"><strong><em>Thông tin mà bạn cung cấp cho chúng tôi</em></strong></p>
+          <p class="p4 title"><strong>Thông tin mà bạn cung cấp cho chúng tôi</strong></p>
           <p class="p4">Bạn đồng ý cho chúng tôi thu thập thông tin mà bạn cung cấp trực tiếp cho chúng tôi như khi
             bạn tạo hoặc sửa đổi tài khoản của bạn, đề nghị các dịch vụ theo yêu cầu, liên lạc với bộ
             phận hỗ trợ khách hàng hoặc liên lạc với chúng tôi theo một cách khác. Thông tin này có thể bao
@@ -136,19 +264,20 @@
             thoại liên lạc và các số điện thoại dự phòng, địa chỉ bưu điện và thông tin về hộ khẩu thường trú/nơi
             đăng ký tạm trú/chỗ ở thường xuyên hiện tại, ảnh hồ sơ, phương thức thanh toán, các hạng mục được
             yêu cầu, các ghi chú và thông tin khác bạn chọn cung cấp.</p>
-          <p class="p4"><strong><em>Thông tin chúng tôi thu thập qua việc bạn sử dụng các Dịch vụ</em></strong></p>
+          <p class="p4 title"><strong>Thông tin chúng tôi thu thập qua việc bạn sử dụng các Dịch vụ</strong>
+          </p>
           <p class="p4">Khi bạn sử dụng Dịch vụ của chúng tôi, bạn đồng ý cho chúng tôi thu thập thông tin về bạn theo
             các danh mục nói chung sau đây:</p>
           <ul class="ul1">
-            <li class="li4"><span class="s1"><span class="Apple-converted-space">&nbsp;&nbsp; &nbsp;
-                </span></span><strong>Thông Tin về Vị Trí:</strong>&nbsp;chúng tôi thu thập dữ liệu vị trí chính
+            <p class="p4"><strong><em>Thông Tin về Vị Trí:</em></strong></p>
+            <li class="li4">chúng tôi thu thập dữ liệu vị trí chính
               xác về việc thực hiện chọn các vị trí hiện tại từ ứng dụng của chúng tôi do bạn sử dụng. Nếu bạn
               cho phép ứng dụng của chúng tôi truy cập các dịch vụ định vị thông qua hệ thống quyền được
               cho phép bởi hệ điều hành của thiết bị di động (“nền tảng”) mà bạn sử dụng, chúng tôi cũng có
               thể thu thập vị trí chính xác của thiết bị của bạn khi ứng dụng đang hiển thị hoặc đang chạy
               ngầm. Chúng tôi cũng có thể thu thập thông tin về vị trí gần đúng của bạn từ địa chỉ IP của bạn.</li>
           </ul>
-          <p class="p4"><strong><em>Thông Tin Quan Trọng Về Quyền Hạn Truy Cập Nền Tảng</em></strong></p>
+          <p class="p4 title"><strong><em>Thông Tin Quan Trọng Về Quyền Hạn Truy Cập Nền Tảng:</em></strong></p>
           <p class="p4">Hầu hết các nền tảng di động (iOS, Android, v.v.) đã xác định một số loại dữ liệu thiết bị mà
             các ứng dụng không thể truy cập mà không có sự chấp thuận của bạn. Và những nền tảng này có hệ thống
             xin phép truy cập khác nhau để có được sự chấp thuận của bạn. Nền tảng iOS sẽ cảnh báo bạn trong lần đầu
@@ -161,49 +290,44 @@
           <p class="p4">Chúng tôi không chịu trách nhiệm đối với thông tin bị tiết lộ trong trường hợp chế độ kiểm soát
             dữ liệu về bảo mật của các nền tảng di động kể trên bị mất/xâm phạm do thiết bị bị jailbreak (bẻ khóa) hoặc
             các sự cố chủ quan hoặc khách quan dẫn đến chế độ kiểm soát dữ liệu bị xâm phạm.</p>
-          <p class="p4"><strong><em>Sử Dụng Thông Tin</em></strong></p>
+          <p class="p4 title"><strong><em>Sử Dụng Thông Tin:</em></strong></p>
           <p class="p4">Bạn đồng ý cho chúng tôi có thể sử dụng các thông tin chúng tôi thu thập từ bạn để:</p>
           <ul class="ul1">
-            <li class="li4" style="
-  text-align: justify;
-"><span class="s1"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; </span></span>Cung cấp, duy trì và cải
+            <p class="li4">Cung cấp, duy trì và cải
               thiện Dịch Vụ của chúng tôi, bao gồm nhưng không giới hạn đối với tạo thuận lợi cho việc thanh
               toán, gửi thông báo/biên lai, cung cấp các sản phẩm và dịch vụ bạn yêu cầu (và gửi thông tin
               liên quan), phát triển các tính năng mới, phát triển các tính năng an toàn, xác thực bạn và
-              gửi cập nhật về sản phẩm và thông báo quản trị;</li>
-            <li class="li4"><span class="s1"><span class="Apple-converted-space">&nbsp; &nbsp; </span></span>Thực hiện
+              gửi cập nhật về sản phẩm và thông báo quản trị;</p>
+            <p class="li4">Thực hiện
               các hoạt động nội bộ, bao gồm, ví dụ như, để ngăn chặn gian lận và lạm dụng Dịch vụ của chúng tôi; để khắc
               phục lỗi phần mềm và các vấn đề về hoạt động; để tiến hành phân tích dữ liệu, kiểm tra và nghiên cứu và
-              để theo dõi và phân tích việc sử dụng và các xu hướng hoạt động;</li>
-            <li class="li4"><span class="s1"><span class="Apple-converted-space">&nbsp;&nbsp; &nbsp; </span></span>Gửi
+              để theo dõi và phân tích việc sử dụng và các xu hướng hoạt động;</p>
+            <p class="li4">Gửi
               cho bạn những thông tin liên lạc mà chúng tôi cho rằng sẽ có ích cho bạn, bao gồm những thông tin
               về sản phẩm, dịch vụ, chương trình khuyến mại, tin tức và các sự kiện của chúng tôi và các
               bên hữu quan khác, trong trường hợp cho phép và theo luật pháp hiện hành của địa phương; và để tổ
               chức các sự kiện hoặc các mục khuyến mãi khác và thực hiện bất kỳ giải thưởng nào (nếu có) liên quan;
-            </li>
-            <li class="li4"><span class="s1"><span class="Apple-converted-space">&nbsp; &nbsp; &nbsp; </span></span>Cá
-              nhân hóa và cải thiện Dịch vụ, bao gồm cung cấp hoặc khuyến nghị các tính năng, nội dung,
-              kết nối xã hội, giới thiệu và quảng cáo.</li>
+            </p>
+            <p class="li4">Cá nhân hóa và cải thiện Dịch vụ, bao gồm cung cấp hoặc khuyến nghị các tính
+              năng, nội dung,
+              kết nối xã hội, giới thiệu và quảng cáo.</p>
           </ul>
 
-          <p class="p4"><strong><em>Những Thay Đổi<span class="Apple-converted-space">&nbsp;</span></em></strong></p>
-          <p class="p4" style="
-  text-align: justify;
-">Nếu chúng tôi thực hiện những thay đổi đáng kể về cách thức chúng tôi xử lý thông tin cá nhân của bạn hoặc đối với
+          <p class="p4 title"><strong><em>Những Thay Đổi:</em></strong></p>
+          <p class="p4">Nếu chúng tôi thực hiện những thay đổi đáng kể về cách thức chúng tôi xử lý thông tin cá nhân
+            của bạn hoặc đối với
             Tuyên Bố, chúng tôi sẽ thông báo cho bạn thông qua Dịch vụ hoặc bằng một số phương tiện khác, chẳng hạn
             như email. Việc bạn tiếp tục sử dụng Dịch vụ sau khi nhận được những thông báo đó có nghĩa là bạn
             chấp thuận với những thay đổi đó. Chúng tôi khuyến khích bạn thường xuyên xem lại Tuyên Bố này để
             biết thông tin mới nhất về các chính sách quyền riêng tư của chúng tôi.</p>
           <p class="p5"><br></p>
-          <p class="p2">QUYỀN SỞ HỮU TRÍ TUỆ VÀ QUYỀN SỞ HỮU KHÁC ĐỐI VỚI DỊCH VỤ</p>
-          <p class="p2" style="
-  text-align: justify;
-">Các Dịch vụ tạo thành một nền tảng công nghệ cho phép bạn sử dụng các ứng dụng di động của chúng tôi hoặc các trang
+          <p class="p2 title">QUYỀN SỞ HỮU TRÍ TUỆ VÀ QUYỀN SỞ HỮU KHÁC ĐỐI VỚI DỊCH VỤ</p>
+          <p class="p2">Các Dịch vụ tạo thành một nền tảng công nghệ cho phép bạn sử dụng các ứng dụng di động của chúng
+            tôi hoặc các trang
             web được chúng tôi cung cấp như một phần của Dịch vụ để hỗ trợ cung cấp thông tin nhằm tìm kiếm và thanh
-            toán cho dịch vụ đặt hẹn<span class="Apple-converted-space">&nbsp;</span></p>
-          <p class="p2" style="
-  text-align: justify;
-">Bạn không thể và không được phép: xóa bỏ bất kỳ bản quyền, thương hiệu hoặc thông tin độc quyền khỏi bất kỳ phần nào
+            toán cho dịch vụ đặt hẹn</p>
+          <p class="p2">Bạn không thể và không được phép: xóa bỏ bất kỳ bản quyền, thương hiệu hoặc thông tin độc quyền
+            khỏi bất kỳ phần nào
             của Dịch vụ; xuất bản lại, sửa đổi, tạo ra tác phẩm phái sinh dựa trên Dịch vụ, phân phối, cấp phép, cho
             thuê, bán, bán lại, chuyển nhượng, trưng bày công khai, truyền tải, truyền phát, phát sóng hoặc khai thác
             các Dịch vụ trừ khi được chúng tôi cho phép bằng văn bản; đảo ngược hoặc phân tách Dịch vụ trừ khi được luật
@@ -212,9 +336,8 @@
             trong bất kỳ phần nào của Dịch vụ hoặc khai thác quá tải hoặc cản trở các hoạt động và/hoặc chức năng của
             bất kỳ phần nào của Dịch vụ hoặc cố gắng nắm được quyền truy cập một cách trái phép hoặc gây tổn hại bất kỳ
             phần nào của Dịch vụ hoặc hệ thống hoặc mạng lưới liên quan đến Dịch vụ.</p>
-          <p class="p2" style="
-  text-align: justify;
-">Bạn không thể và không được phép: sử dụng Dịch vụ để thực hiện bất kỳ hành động nào gây hại cho hệ thống an ninh mạng
+          <p class="p2">Bạn không thể và không được phép: sử dụng Dịch vụ để thực hiện bất kỳ hành động nào gây hại cho
+            hệ thống an ninh mạng
             của chúng tôi, bao gồm nhưng không giới hạn đối với việc truy cập vào máy chủ hệ thống hoặc tài khoản không
             được phép; truy cập vào hệ thống mạng để xóa bỏ, chỉnh sửa và/hoặc phát tán các thông tin trái phép, các
             chương trình độc hại, virus hoặc thực hiện bất kỳ hành động nào khác nhằm gây hại hoặc phá hủy hệ thống
@@ -222,9 +345,8 @@
           <p class="p2">Bạn công nhận rằng các Dịch vụ có thể được cung cấp dưới các nhãn hiệu do chúng tôi sở hữu và
             công bố hợp pháp hoặc tùy chọn theo yêu cầu bởi hoặc liên quan đến: (a) một số các công ty con và chi nhánh
             của chúng tôi nếu có; hoặc (b) Nhà cung cấp là Bên thứ ba độc lập.</p>
-          <p class="p2" style="
-  text-align: justify;
-">Các dịch vụ và nội dung của Bên thứ ba: Các Dịch vụ có thể được cung cấp hoặc truy cập liên quan đến các dịch vụ và
+          <p class="p2">Các dịch vụ và nội dung của Bên thứ ba: Các Dịch vụ có thể được cung cấp hoặc truy cập liên quan
+            đến các dịch vụ và
             nội dung của bên thứ ba (bao gồm cả quảng cáo) mà chúng tôi không thể kiểm soát. Bạn công nhận rằng các điều
             khoản khác nhau về sử dụng và chính sách về quyền riêng tư có thể áp dụng đối với việc sử dụng dịch vụ và
             nội dung của Bên thứ ba. Chúng tôi không xác nhận các dịch vụ và nội dung của Bên thứ ba và trong mọi trường
@@ -236,19 +358,17 @@
             các bên tham gia hợp đồng này và không chịu trách nhiệm về việc cung cấp hoặc hỗ trợ các Dịch vụ theo bất kỳ
             cách nào. Việc bạn truy cập các Dịch vụ bằng cách sử dụng các thiết bị này tuân theo các điều khoản được quy
             định trong các điều khoản dịch vụ của bên thụ hưởng thứ ba.</p>
-          <p class="p2" style="
-  text-align: justify;
-">Các Dịch vụ và tất cả các quyền được nêu rõ hoặc ngầm định trong văn bản này là tài sản của chúng tôi. Các Điều khoản
+          <p class="p2">Các Dịch vụ và tất cả các quyền được nêu rõ hoặc ngầm định trong văn bản này là tài sản của
+            chúng tôi. Các Điều khoản
             này và việc bạn sử dụng các Dịch vụ này không thể hiện hoặc cấp cho bạn các quyền: (i) về hoặc liên quan đến
             các Dịch vụ này; hoặc (ii) sử dụng hoặc tham chiếu tên công ty, logo, tên sản phẩm và dịch vụ, thương hiệu
             hoặc nhãn dịch vụ của chúng tôi hoặc bất kỳ tài sản nào thuộc quyền sở hữu trí tuệ của chúng tôi dưới bất kỳ
             hình thức nào.</p>
           <p class="p3"><br></p>
 
-          <p class="p2">SỬ DỤNG DỊCH VỤ</p>
-          <p class="p2" style="
-  text-align: justify;
-">Tài khoản của bạn: Để sử dụng hầu hết các khía cạnh của Dịch vụ, bạn phải đăng ký và duy trì hoạt động một tài khoản
+          <p class="p2 title">SỬ DỤNG DỊCH VỤ</p>
+          <p class="p2">Tài khoản của bạn: Để sử dụng hầu hết các khía cạnh của Dịch vụ, bạn phải đăng ký và duy trì
+            hoạt động một tài khoản
             Dịch vụ người dùng cá nhân (“<em>Tài khoản</em>”). Việc đăng ký tài khoản yêu cầu bạn phải gửi cho chúng tôi
             các thông tin cá nhân nhất định, bao gồm nhưng không giới hạn đối với: tên, địa chỉ, số điện thoại di động,
             địa chỉ email của bạn, cũng như tối thiểu một phương thức thanh toán hợp lệ. Bạn đồng ý duy trì thông tin
@@ -284,7 +404,7 @@
             trong việc sử dụng Internet và các phương tiện liên lạc điện tử. Bạn cũng phải tự bảo đảm thiết bị điện tử
             của bạn an toàn khỏi các phần mềm độc hại (virus) trong quá trình bạn sử dụng các Ứng dụng và Dịch vụ.</p>
           <p class="p5"><br></p>
-          <p class="p4">CÁC QUY ĐỊNH KHÁC</p>
+          <p class="p4 title">CÁC QUY ĐỊNH KHÁC</p>
           <p class="p4">Chúng tôi có thể đưa ra thông báo bằng phương thức thông báo chung về các Dịch vụ, gửi thư điện
             tử đến địa chỉ email trong Tài khoản của bạn hoặc thông qua văn bản liên lạc được gửi qua đường bưu điện đến
             địa chỉ được ghi trong Tài khoản của bạn.</p>
@@ -321,15 +441,8 @@
     <div class="bottom">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-xs-12">
-
-            <h3 class="title"></h3>
-
-
-          </div>
-          <div class="col-sm-5 col-xs-12">
+          <div class="col-xs-12 p-32">
             <h3 class="title">CÔNG TY CÔNG NGHỆ THÔNG TIN VNPT</h3>
-
             <div class="address">
               <div class="info"><span class="key">Trụ sở</span> <span class="value">57 Huỳnh Thúc Kháng -
                   Đống Đa - Hà Nội</span> </div>
@@ -340,7 +453,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-xs-12">
+          <div class="col-xs-12 p-32">
             <h3 class="title">HỖ TRỢ</h3>
             <ul class="links">
               <li><a class="link">Hướng dẫn sử dụng</a></li>
